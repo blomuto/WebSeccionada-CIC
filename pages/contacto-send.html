@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIC | Centro Integral Canino</title>
+    <!--FavIcon - poner mi ruta -->
+    <link rel="icon" href="../img/cic-ico.ico">
+    <!--Buscadores - poner mis referencias-->
+    <meta name="keywords" content="canino, canina, perro, perros, guarderia, entrenamiento, terapias alternativas, animales, recreacion, cursos, talleres, intervenciones asistidas">
+    <meta name="description" content="Centro Integral Canino.">
+    <meta name="author" content="Xivo Estudio Creativo">
+    <meta name="copyright" content="Xivo Estudio Creativo"> 
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+    <!--FancyBox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Hover CSS-->
+    <link href="../css/hover.css" rel="stylesheet" media="all">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Estilos - poner mi ruta -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+          document.getElementById("demo-form").submit();
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-3 m-0">
+        <div class="container-fluid">
+            <div class="d-block d-lg-none text-center">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo-cic.png" alt="CIC" class="cic-logo">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse menupc text-center" id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center fuente-titulos">
+                    <li class="nav-item px-5">
+                        <a class="nav-link enlaces" href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link enlaces" href="../pages/servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item px-5 d-none d-lg-block">
+                        <a class="nav-link" href="../index.html">
+                            <img src="../img/logo-cic.png" alt="CIC" class="cic-logo">
+                        </a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link enlaces" href="../pages/galeria.html">GALERÍA</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link enlaces" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0 m-0">
+        <div class="banner-contacto p-5 m-0">
+            <div class="row justify-content-center d-flex">
+                <div class="col-12 py-5 justify-content-center text-center text-white d-flex ">
+                    <h1 class="fuente-titulos sombras animate__animated animate__fadeInDown py-3">CONTACTO</h1>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- CONTACTANOS -->
+    <section class="container-fluid px-0 pt-4 m-0">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="fuente-titulos animate__animated animate__fadeInDown">CONTACTO</h2>
+                <h6 class="fuente-regular">Dejanos tu consulta y nos comunicaremos a la brevedad por WhatsApp.</h6>
+            </div>
+            <div class="row fuente-regular d-flex justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 py-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.74142793045!2d-57.67057352151008!3d-38.01741063618429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1670247858195!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 py-3 text-center">
+                    <form action="enviar.php" method="POST" id="form_contacto" subject="Consulta enviada desde la Web">
+                        <div class="form-group p-0 m-0 ">
+                            <label for="nombre"></label>
+                            <input 
+                            type="text" 
+                            class="form-control campos" 
+                            id="nombre" 
+                            name="nombre"
+                            placeholder="Nombre y Apellido" 
+                            required>
+                        </div>
+
+                        <div class="form-group p-0 m-0 ">
+                            <label for="telefono"></label>
+                            <input 
+                            type="tel" 
+                            class="form-control campos" 
+                            id="telefono" 
+                            name="telefono"
+                            placeholder="Teléfono" 
+                            required>
+                        </div>
+
+                        <!-- <div class="form-group p-0 m-0 ">
+                            <label for="motivo"></label>
+                            <select name="motivo" id="motivo" class="form-select campos" aria-label="Default select example">
+                                <option selected>Seleccione el motivo de su contacto</option>
+                                <option value="consulta">Consulta</option>
+                                <option value="guarderia">Guardería</option>
+                                <option value="cursos-talleres">Cursos y talleres</option>
+                                <option value="entrenamientos">Entrenamientos</option>
+                            </select>
+                        </div> -->
+
+                        <!-- <div class="form-group p-0 m-0">
+                            <label for="asunto"></label>
+                            <input 
+                            type="text" 
+                            class="form-control campos" 
+                            id="asunto"
+                            name="asunto" 
+                            placeholder="Asunto" 
+                            required>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="consulta"></label>
+                            <textarea 
+                            class="form-control campos" 
+                            id="consulta" 
+                            name="consulta"
+                            placeholder="Motivo de su contacto" 
+                            rows="3"
+                            ></textarea>
+                        </div>
+
+                        <div style="text-align: center;" class="pt-4">
+                            <div class="g-recaptcha" data-sitekey="6LeRR-AmAAAAAE_2vfeiqxBF_uWkHRTb_Q5a5SjD" data-callback='onSubmit'
+                            style="display: inline-block;"></div>
+                        </div>
+
+                        <div class="text-center py-3">
+                            <button type="submit" value="Submit" data-action='submit' class="btn vermas3 w-50">ENVIAR MENSAJE</button>
+                        </div>
+
+                        <div class="alert alert-success mt-4" role="alert">
+                            Tu mensaje ha sido enviado exitosamente. Te responderemos a la brevedad por Whatsapp!
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid fondo-footer py-1 m-0 fuente-regular">
+        <div class="container">
+            <div class="row py-5 text-white d-flex align-items-center">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-3 text-center d-block d-md-none">
+                    <div class="m-0 py-1">
+                        <img src="../img/logo-cic-blanco.png" alt="CIC" class="cic-logo-bco">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <img src="../img/ubicacion-cic.png" width="10%" alt="CIC">
+                        <p class="pt-3 m-0 fuente-bold">CIC</p>
+                        <p class="p-0 m-0 fuente-regular">Estamos a 5 minutos de Mar del Plata,</p>
+                        <p class="p-0 m-0 fuente-regular">saliendo por Ruta 2 – Barrio El Sosiego.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 p-1 text-center">
+                    <div class="m-0 py-1 d-none d-md-block w-100">
+                        <img src="../img/logo-cic-blanco.png" alt="CIC" class="cic-logo-bco">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12 p-1 text-center">
+                    <div class="m-0 py-1">
+                        <img src="../img/casa-central.png" width="10%" alt="Casa Central">
+                        <p class="pt-3 m-0 fuente-bold">Sede Mar del Plata</p>
+                        <p class="p-0 m-0 fuente-regular">Nos encontramos en <br> Barrio La Perla.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+    <div class="container-fluid fuente-regular bg-dark">
+        <div class="container text-center">
+            <p class="py-2 m-0 derechos"> 2023 © Todos los derechos reservados. | Diseño <a href="https://www.xivo.com.ar/" target="_blank" class="xivo">Xivo Estudio Creativo</a>. Desarrollo <a href="https://www.daino.com.ar/" target="_blank" class="xivo">Daino Branding & Web</a>.</p>
+        </div>
+    </div>
+
+
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!--Slick-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!--JS FancyBox-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+</html>

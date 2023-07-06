@@ -1,0 +1,248 @@
+*{margin: 0%; padding: 0; box-sizing: border-box;}
+p{font-size: 1em;}
+@font-face{
+    src: url("../fonts/Mukta-Bold.ttf");
+    font-family: "Mukta-Bold";
+}
+@font-face{
+    src: url("../fonts/Mukta-Regular.ttf");
+    font-family: "Mukta-Regular";
+}
+@font-face{
+    src: url("../fonts/PaytoneOne-Regular.ttf");
+    font-family: "Paytone";
+}
+.fuente-bold{
+    font-family: "Mukta-Bold";
+}
+.fuente-regular{
+    font-family: "Mukta-Regular";
+}
+.fuente-titulos{
+    font-family: "Paytone";
+}
+.flotante{
+    right: 20px;
+    top: 75%;
+    z-index: 999;
+    position: fixed;
+}
+.cic-logo{
+    max-height: 100px;
+    max-width: 100%;
+}
+.cic-logo-bco{
+    max-height: 100px;
+    max-width: 100%;
+}
+.menupc{
+    display: flex;
+    justify-content: center;
+}
+.enlaces{
+    color: black!important;
+}
+.enlaces:hover{
+    color: #41671B !important;
+}
+.color-violeta{
+    color:#511F74;
+}
+.color-verde{
+    color:#4d6624;
+}
+.color-rojo{
+    color:#F24C3C;
+}
+.color-naranja{
+    color:#e78610;
+}
+.color-turquesa{
+    color:#26A699;
+}
+.color-amarillo{
+    color: #fdc236;
+}
+.sec-blanco{
+    background-color: white;
+}
+.linkeados{
+    color: black;
+    text-decoration: none;
+}
+.fondo-frase{
+    background: url(../img/banda-frase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.campos{
+    background-color: #F5F5F5;
+}
+.enlace-footer{
+    color: white;
+    text-decoration: none;
+}
+.enlace-footer:hover{
+    color: #41671B;
+}
+.vermas3{
+    background-color:  #fdc236;
+    color: black;
+}
+.vermas3:hover{
+    background-color: #e78610;
+    color: white;
+}
+.boton1:hover{
+    background-color:  #511F74;
+    color: white;
+}
+.fondo1{
+    background-color:  #511F74;
+    color: white;
+}
+.boton2:hover{
+    background-color:  #3A5D18;
+    color: white;
+}
+.fondo2{
+    background-color:  #3A5D18;
+    color: white;
+}
+.boton3:hover{
+    background-color:  #e78610;
+    color: white;
+}
+.fondo3{
+    background-color:  #e78610;
+    color: white;
+}
+.boton4:hover{
+    background-color:  #26A699;
+    color: white;
+}
+.fondo4{
+    background-color:  #26A699;
+    color: white;
+}
+.boton5:hover{
+    background-color:  #cf3022;
+    color: white;
+}
+.fondo5{
+    background-color:  #cf3022;
+    color: white;
+}
+.fondo6{
+    background-color:  #a19100;
+    color: white;
+}
+.sombras{
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+.parallax {
+    background-image: url(../img/fondo-galeria-.jpg);
+    /*min-height: 100px;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax-opacity {
+    height: 100%;
+    background: rgba(31, 31, 32, 0.9);
+}
+.vermas2{
+    background-color:  #F88125;
+    color: white;
+}
+.vermas2:hover{
+    background-color: #6e3c03;
+    color: white;
+}
+.vermas4{
+    background-color:  #e2e2e2;
+    color: rgb(58, 58, 58);
+}
+.vermas4:hover{
+    background-color:  #fdc236;
+    color: black;
+}
+.banner-nosotros{
+    background: url(../img/banner-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-servicios{
+    background: url(../img/banner-servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-galeria{
+    background: url(../img/banner-galeria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-contacto{
+    background: url(../img/banner-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo-footer{
+    background-color: #4d6624;
+}
+.derechos{
+    color: #b3b3b3;
+}
+.xivo{
+    color: #dfdfdf;
+    text-decoration: none;
+}
+.xivo:hover{
+    color: white;
+}
+.ir-arriba{
+    display: inline-block;
+    padding: 10px;
+    background: #030833;
+    font-size:20px;
+    color: #F5F5F5;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+.ir-arriba:hover{
+    background: #979593;
+}
+.fondo-modal{
+    background-image: url(../img/fondo-pop-up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width: 0px) and (max-width: 575px) {
+    .responsive img{
+        width: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .visible{
+        display: block;
+        width: 100%;
+    }
+    .responsive img{
+        width: 80px;
+        padding-right: 15px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1201px) {
+    .responsive img{
+        width: 100px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 992px){
+    .visible{
+        display: none;
+    }
+}
